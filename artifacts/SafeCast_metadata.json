@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "bits",
+						"type": "uint8"
+					},
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "SafeCastOverflowedIntDowncast",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "SafeCastOverflowedIntToUint",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "bits",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "SafeCastOverflowedUintDowncast",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "SafeCastOverflowedUintToInt",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "Wrappers over Solidity's uintXX/intXX/bool casting operators with added overflow checks. Downcasting from uint256/int256 in Solidity does not revert on overflow. This can easily result in undesired exploitation or bugs, since developers usually assume that overflows raise errors. `SafeCast` restores this intuition by reverting the transaction when such an operation overflows. Using this library instead of the unchecked operations eliminates an entire class of bugs, so it's recommended to use it always.",
+			"errors": {
+				"SafeCastOverflowedIntDowncast(uint8,int256)": [
+					{
+						"details": "Value doesn't fit in an int of `bits` size."
+					}
+				],
+				"SafeCastOverflowedIntToUint(int256)": [
+					{
+						"details": "An int value doesn't fit in an uint of `bits` size."
+					}
+				],
+				"SafeCastOverflowedUintDowncast(uint8,uint256)": [
+					{
+						"details": "Value doesn't fit in an uint of `bits` size."
+					}
+				],
+				"SafeCastOverflowedUintToInt(uint256)": [
+					{
+						"details": "An uint value doesn't fit in an int of `bits` size."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"nacFinal/ERC20.sol": "SafeCast"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"nacFinal/ERC20.sol": {
+			"keccak256": "0x4398d18908cdd31ac26915b7cfd98f78a27e7288c553d72b8ecff19333ac829e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3eb25208872e0c188b1c248b38f6fc30a5d3c8d763f84c5a7639be8221ab3c7c",
+				"dweb:/ipfs/QmRGFXhaFLUoEaRTYb614XPvoLTNfhBdwoq4UxPtpbdDvG"
+			]
+		}
+	},
+	"version": 1
+}

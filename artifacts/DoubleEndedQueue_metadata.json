@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "A sequence of items with the ability to efficiently push and pop items (i.e. insert and remove) on both ends of the sequence (called front and back). Among other access patterns, it can be used to implement efficient LIFO and FIFO queues. Storage use is optimized, and all operations are O(1) constant time. This includes {clear}, given that the existing queue contents are left in storage. The struct is called `Bytes32Deque`. Other types can be cast to and from `bytes32`. This data structure can only be used in storage, and not in memory. ```solidity DoubleEndedQueue.Bytes32Deque queue; ```",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"nacFinal/GovernanceBundle.sol": "DoubleEndedQueue"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"nacFinal/GovernanceBundle.sol": {
+			"keccak256": "0xfdb0b9d850e1566f522587fde3d72e45c30bd67aeaae8fd5e49c5958502008ae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3aea5b29132713e5760a770a925f88e6c419d95285834e77e4c3f3d9dcc8e528",
+				"dweb:/ipfs/QmTtNTUgL6bA3Up4xyiAEkctKEBTCSA4vUfXhpV3qn4Ytd"
+			]
+		}
+	},
+	"version": 1
+}
