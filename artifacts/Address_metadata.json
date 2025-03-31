@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "AddressEmptyCode",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"errors": {
+				"AddressEmptyCode(address)": [
+					{
+						"details": "There's no code at `target` (it is not a contract)."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"nacFinal/GovernanceBundle.sol": "Address"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"nacFinal/GovernanceBundle.sol": {
+			"keccak256": "0xfdb0b9d850e1566f522587fde3d72e45c30bd67aeaae8fd5e49c5958502008ae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3aea5b29132713e5760a770a925f88e6c419d95285834e77e4c3f3d9dcc8e528",
+				"dweb:/ipfs/QmTtNTUgL6bA3Up4xyiAEkctKEBTCSA4vUfXhpV3qn4Ytd"
+			]
+		}
+	},
+	"version": 1
+}
